@@ -1,6 +1,7 @@
 # open_proxy_validator
 
-Python program to iterate through and check a list of proxies.
+Python program to iterate through and check a list of proxies. Try ti connect to a website
+via a socks proxy. Considers a proxy valid if requests.get status code == 200. 
 
 
 #### Usage:
