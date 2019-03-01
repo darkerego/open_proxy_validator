@@ -76,7 +76,7 @@ def parse_list(proxy_lst):
     """
 
     :param proxy_lst: List of proxies in format: 1.21.146.255:9001:socks4
-    return: list of proxies in example format socks5://81.21.146.255:9001
+    :return: list of proxies in example format socks5://81.21.146.255:9001
     """
     p = get_proxy_list(proxy_lst)
     for i in p:
